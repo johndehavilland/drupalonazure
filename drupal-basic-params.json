@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "siteName": {
+            "value": "SomeDrupalWebsiteName"
+        },
+        "hostingPlanName": {
+            "value": "drupal-plan"
+        },
+        "sku":{
+            "value":"Standard"
+        },
+        "siteLocation": {
+            "value": "East US"
+        },
+        "serverName": {
+            "value": "SomeDatabaseServerName"
+        },
+        "serverLocation": {
+            "value": "East US"
+        },
+        "administratorLogin": {
+            "value": "SomeAdmin"
+        },
+        "administratorLoginPassword": {
+            "value": "SomePassword"
+        },
+        "databaseName": {
+            "value": "SomeDatabaseName"
+        }
+    }
+}
